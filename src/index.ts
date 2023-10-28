@@ -1,5 +1,5 @@
 function print(name: string) {
-    return name
+    return name;
 }
 
-print('Anas')
+print('Anas');

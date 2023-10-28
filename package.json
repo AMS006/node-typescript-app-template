@@ -1,15 +1,18 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "A User Managment Servive",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node ./src/index.ts"
-  },
-  "author": "Anas Sain",
-  "license": "ISC",
-
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  }
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "A User Managment Servive",
+    "main": "index.js",
+    "scripts": {
+        "format:check": "npx prettier . --check",
+        "format:write": "npx prettier . --write",
+        "dev": "node ./src/index.ts"
+    },
+    "author": "Anas Sain",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.8.9",
+        "prettier": "3.0.3",
+        "typescript": "^5.2.2"
+    }
 }
