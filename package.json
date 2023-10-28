@@ -1,0 +1,15 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "A User Managment Servive",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.ts"
+  },
+  "author": "Anas Sain",
+  "license": "ISC",
+
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
